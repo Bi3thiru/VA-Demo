@@ -410,7 +410,7 @@ elif page == "📊 Dashboard":
                     }
                     for obj in latest_data[-1]['objects']
                 ])
-                st.dataframe(df_objects, use_column_width=True, height=300)
+                st.dataframe(df_objects, use_container_width=True, height=300)
             else:
                 st.info("📋 No active objects to track")
         
