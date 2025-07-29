@@ -1,0 +1,10 @@
+ultralytics
+opencv-python
+streamlit
+plotly
+pandas
+pillow
+# PyTorch with CUDA support (install separately with: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121)
+torch
+torchvision
+torchaudio

@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Run Streamlit App",
+			"command": "C:/Thiru/VA-Demo/.venv/Scripts/python.exe -m streamlit run app.py",
+			"group": "build",
+			"isBackground": true
+		}
+	]
+}
